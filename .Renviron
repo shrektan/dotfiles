@@ -1,11 +1,3 @@
-# PATH="/usr/local/opt/llvm/bin"
-# LDFLAGS="-L/usr/local/opt/llvm/lib"
-# CPPFLAGS="-I/usr/local/opt/llvm/include"
-# PATH=/usr/local/clang7/bin
-# PATH="/usr/local/include"
-# PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-# PATH="/usr/local/opt/llvm/lib/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/share/dotnet:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/opt/local/bin"
-# PATH="/usr/local/opt/llvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 NOT_CRAN=true
 LANGUAGE=en
 PATH="~/.cargo/bin:${PATH}"
