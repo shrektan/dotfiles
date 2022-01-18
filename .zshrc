@@ -1,0 +1,5 @@
+alias r_cmdcheck="Rscript -e 'rcmdcheck::rcmdcheck()'"
+alias r_test="Rscript -e 'devtools::test()'"
+alias rext_doc="Rscript -e 'rextendr::document()'"
+alias r="radian"
+alias radian="~/miniconda3/bin/radian"
