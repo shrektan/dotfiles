@@ -14,7 +14,7 @@
   cmd <- sprintf("git tag %s && git push && git push origin %s", tag, tag)
   system(cmd)
 }
-
+options(vsc.use_httpgd = TRUE)
 options("repos"=c("CRAN"="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"))
 options(useFancyQuotes = FALSE)
 options(languageserver.lint_cache = TRUE)
