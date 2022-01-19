@@ -1,5 +1,5 @@
 alias r_cmdcheck="Rscript -e 'rcmdcheck::rcmdcheck()'"
-alias r_install="R CMD INSTALL"
+alias r_install="R CMD INSTALL ."
 alias r_test="Rscript -e 'devtools::test()'"
 alias rext_doc="Rscript -e 'rextendr::document()'"
 alias r_doc="Rscript -e 'devtools::document()'"
