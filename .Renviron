@@ -1,3 +1,6 @@
 NOT_CRAN=true
 LANGUAGE=en
 PATH="~/.cargo/bin:${PATH}"
+aztools.remote.con=pqread,jydb
+aztools.remote.url=http://10.8.11.56:8805/query
+
