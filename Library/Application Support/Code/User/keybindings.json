@@ -1,0 +1,31 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "description": "R: run devtools::load_all()",
+    "key": "cmd+shift+l",
+    "command": "r.runCommand",
+    "when": "terminalIsOpen",
+    "args": "devtools::load_all()"
+  },
+  {
+    "description": "R: run devtools::document()",
+    "key": "cmd+shift+d",
+    "command": "r.runCommand",
+    "when": "terminalIsOpen",
+    "args": "devtools::document(roclets = c('rd', 'collate', 'namespace'))"
+  },
+  {
+    "description": "R: run rextendr::document()",
+    "key": "cmd+shift+e",
+    "command": "r.runCommand",
+    "when": "terminalIsOpen",
+    "args": "rextendr::document()"
+  },
+  {
+    "description": "R: run devtools::test()",
+    "key": "cmd+shift+t",
+    "command": "r.runCommand",
+    "when": "terminalIsOpen",
+    "args": "devtools::test()"
+  }
+]
