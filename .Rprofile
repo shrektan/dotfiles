@@ -20,6 +20,6 @@ options(useFancyQuotes = FALSE)
 options(languageserver.lint_cache = TRUE)
 options(datatable.quiet = TRUE, datatable.print.class = TRUE, datatable.print.keys = TRUE)
 .iamc_repos <- "http://10.20.30.16/aziamc-cran/latest"
-if (interactive() && Sys.getenv("RSTUDIO") == "") {
+if (interactive() && !nzchar(Sys.getenv("RSTUDIO"))) {
   source(file.path(Sys.getenv(if (.Platform$OS.type == "windows") "USERPROFILE" else "HOME"), ".vscode-R", "init.R"))
 }
