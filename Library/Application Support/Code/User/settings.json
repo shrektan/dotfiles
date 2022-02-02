@@ -5,7 +5,7 @@
     "r.rterm.option": [
         // "--no-save",
         // "--no-restore",
-        "--no-site-file"
+        // "--no-site-file"
     ],
     "r.rpath.mac": "/usr/local/bin/R",
     "path-autocomplete.pathMappings": {
@@ -14,7 +14,7 @@
     },
     "git.autofetch": true,
     "r.sessionWatcher": true,
-    "r.rterm.mac": "/usr/local/bin/radian",
+    "r.rterm.mac": "/Users/shrektan/miniconda3/bin/radian",
     "git.confirmSync": false,
     "diffEditor.renderSideBySide": false,
     "files.trimTrailingWhitespace": true,
@@ -22,16 +22,14 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "C_Cpp.updateChannel": "Insiders",
     "r.lsp.diagnostics": false,
     "r.lsp.args": [
     ],
     "remote.SSH.remotePlatform": {
         "10.8.11.57": "linux"
     },
-    "workbench.colorTheme": "Visual Studio Dark",
     "remote.SSH.useFlock": false,
     "update.mode": "manual",
     "redhat.telemetry.enabled": false,
-    "window.zoomLevel": 1
+    "security.workspace.trust.untrustedFiles": "open"
 }
