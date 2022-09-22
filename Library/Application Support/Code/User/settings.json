@@ -14,14 +14,13 @@
     },
     "git.autofetch": true,
     "r.sessionWatcher": true,
+    // "r.rterm.mac": "/usr/local/bin/R",
     "r.rterm.mac": "/Users/shrektan/miniconda3/bin/radian",
     "git.confirmSync": false,
-    "diffEditor.renderSideBySide": false,
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "diffEditor.ignoreTrimWhitespace": false,
     "r.lsp.diagnostics": false,
     "r.lsp.args": [
     ],
@@ -31,5 +30,10 @@
     "remote.SSH.useFlock": false,
     "update.mode": "manual",
     "redhat.telemetry.enabled": false,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.suggestSmartCommit": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "workbench.editor.enablePreview": false,
+    "quarto.mathjax.theme": "dark"
 }

@@ -27,5 +27,18 @@
     "command": "r.runCommand",
     "when": "terminalIsOpen",
     "args": "devtools::test()"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "quarto.renderShortcut"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-quarto.renderShortcut"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-r.knitRmd",
+    "when": "editorTextFocus && editorLangId == 'rmd'"
   }
 ]
