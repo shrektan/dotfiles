@@ -6,21 +6,10 @@ alias r_test="Rscript -e 'devtools::test()'"
 alias rext_doc="Rscript -e 'rextendr::document()'"
 alias r_doc="Rscript -e 'devtools::document()'"
 alias r="radian"
-# alias radian="~/miniconda3/bin/radian"
-alias python="~/miniconda3/bin/python3.8"
-# alias conda="~/miniconda3/bin/conda"
+alias python="/opt/homebrew/bin/python3.11"
+alias open1024="open ~/Downloads/movie/1024"
+alias clean1024="R -q --no-save -s -e '.clean_up_1024(\"~/Downloads/movie/1024/\")';open1024"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/shrektan/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/shrektan/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/shrektan/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/shrektan/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
