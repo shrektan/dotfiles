@@ -7,8 +7,10 @@ alias rext_doc="Rscript -e 'rextendr::document()'"
 alias r_doc="Rscript -e 'devtools::document()'"
 alias r="radian"
 alias python="/opt/homebrew/bin/python3.11"
-alias open1024="open ~/Downloads/movie/1024"
-alias clean1024="python ~/Documents/RWD/py-scripts/simplify_file_tree.py ~/Downloads/movie/1024"
+# 不能用alias了，这代表定义变量，需要用${path1024}来替换
+path1024="/Users/shrektan/Downloads/movie/1024"
+alias sfolder="python ~/Documents/RWD/py-scripts/simplify_file_tree.py"
+alias rotatevideo="python ~/Documents/RWD/py-scripts/rotate_video.py"
 
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"

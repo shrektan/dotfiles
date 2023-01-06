@@ -15,15 +15,13 @@
     "git.autofetch": true,
     "r.sessionWatcher": true,
     // "r.rterm.mac": "/usr/local/bin/R",
-    "r.rterm.mac": "/Users/shrektan/miniconda3/bin/radian",
+    "r.rterm.mac": "/opt/homebrew/bin/radian",
     "git.confirmSync": false,
     "files.trimTrailingWhitespace": true,
-    "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "r.lsp.diagnostics": false,
-    "r.lsp.args": [
-    ],
+    "r.lsp.args": [],
     "remote.SSH.remotePlatform": {
         "10.8.11.57": "linux"
     },
@@ -35,5 +33,14 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
     "workbench.editor.enablePreview": false,
-    "quarto.mathjax.theme": "dark"
+    "quarto.mathjax.theme": "dark",
+    "ruff.importStrategy": "fromEnvironment",
+    "ruff.path": [
+        "/opt/homebrew/bin/ruff"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hans": true
+    }
 }
