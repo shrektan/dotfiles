@@ -11,7 +11,7 @@ alias python="/opt/homebrew/bin/python3.11"
 path1024="/Users/shrektan/Downloads/movie/1024"
 alias sfolder="python ~/Documents/RWD/py-scripts/simplify_file_tree.py"
 alias rotatevideo="python ~/Documents/RWD/py-scripts/rotate_video.py"
-
+alias cdpyscript="cd ~/Documents/RWD/py-scripts/"
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
