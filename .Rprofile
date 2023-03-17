@@ -35,7 +35,7 @@ options(error = function() {
     q(status = 1)
   }
 })
-.iamc_repos <- "http://10.20.30.16/aziamc-cran/latest"
+.iamc_repos <- "http://10.8.12.43/aziamc-cran/latest"
 if (interactive() && !nzchar(Sys.getenv("RSTUDIO"))) {
   source(file.path(Sys.getenv(if (.Platform$OS.type == "windows") "USERPROFILE" else "HOME"), ".vscode-R", "init.R"))
 }
