@@ -45,5 +45,8 @@
     },
     "editor.unicodeHighlight.allowedCharacters": {
         "：": true
-    }
+    },
+    "rust-analyzer.discoverProjectCommand": null,
+    "rust-analyzer.cargo.sysroot": "discover",
+    "editor.inlineSuggest.enabled": true
 }
