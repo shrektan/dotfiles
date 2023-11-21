@@ -34,11 +34,7 @@
   },
   {
     "key": "shift+cmd+k",
-    "command": "-quarto.renderShortcut"
-  },
-  {
-    "key": "shift+cmd+k",
-    "command": "-r.knitRmd",
-    "when": "editorTextFocus && editorLangId == 'rmd'"
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]
