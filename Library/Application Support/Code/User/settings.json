@@ -12,10 +12,10 @@
         "/": "/",
         "./": "${folder}"
     },
-    "git.autofetch": true,
     "r.sessionWatcher": true,
     // "r.rterm.mac": "/usr/local/bin/R",
     "r.rterm.mac": "/opt/homebrew/bin/radian",
+    "git.autofetch": true,
     "git.confirmSync": false,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -30,15 +30,8 @@
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "git.suggestSmartCommit": false,
-    "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
     "workbench.editor.enablePreview": false,
-    "quarto.mathjax.theme": "dark",
-    "ruff.importStrategy": "fromEnvironment",
-    "ruff.path": [
-        "/opt/homebrew/bin/ruff"
-    ],
-    "python.analysis.typeCheckingMode": "basic",
     "editor.formatOnSave": true,
     "editor.unicodeHighlight.allowedLocales": {
         "zh-hans": true
@@ -46,7 +39,67 @@
     "editor.unicodeHighlight.allowedCharacters": {
         "：": true
     },
-    "rust-analyzer.discoverProjectCommand": null,
     "rust-analyzer.cargo.sysroot": "discover",
-    "editor.inlineSuggest.enabled": true
+    "editor.inlineSuggest.enabled": true,
+    "workbench.colorTheme": "Default Light Modern",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false,
+    "ruff.showNotifications": "onError",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "editor.formatOnPaste": true,
+    "files.autoSave": "onFocusChange",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.11",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.terminal.launchArgs": [
+        "-m",
+        "IPython"
+    ],
+    "github.copilot.enable": {
+        "python": "true",
+        "R": "true"
+    },
+    "notebook.output.scrolling": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "mypy.runUsingActiveInterpreter": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "http.proxy": "http://127.0.0.1:8001",
+    "evenBetterToml.formatter.trailingNewline": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticMode": "workspace",
+    "dataWrangler.experiments.autoDetectCsvDelimiter": true,
+    "dataWrangler.experiments.fastCsvParsing": true,
+    "dataWrangler.experiments.useJupyterProposedAPI": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnknownMemberType": "none",
+        "reportUnknownVariableType": "none",
+        "reportUnknownParameterType": "none",
+        "reportUnknownLambdaType": "none",
+        "reportUnknownArgumentType": "none",
+        "reportUnknownCallerType": "none",
+        "reportUnnecessaryIsInstance": "none",
+    },
 }

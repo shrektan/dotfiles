@@ -1,7 +1,7 @@
 NOT_CRAN=true
 LANGUAGE=en
 PATH="~/.cargo/bin:${PATH}"
-aztools.remote.con=pqread,jydb
+aztools.remote.con=pqread,jydb,hsfa
 aztools.remote.url=http://10.8.11.56:8805/query
 EDITOR=code
 QUANT_TEST=true
