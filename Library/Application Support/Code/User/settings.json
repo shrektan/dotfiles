@@ -78,7 +78,7 @@
     "mypy.runUsingActiveInterpreter": true,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
-    "http.proxy": "http://127.0.0.1:8001",
+    // "http.proxy": "http://127.0.0.1:8001",
     "evenBetterToml.formatter.trailingNewline": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.widgetScriptSources": [
@@ -90,7 +90,6 @@
     "python.analysis.diagnosticMode": "workspace",
     "dataWrangler.experiments.autoDetectCsvDelimiter": true,
     "dataWrangler.experiments.fastCsvParsing": true,
-    "dataWrangler.experiments.useJupyterProposedAPI": true,
     "python.analysis.autoFormatStrings": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.diagnosticSeverityOverrides": {
@@ -101,5 +100,14 @@
         "reportUnknownArgumentType": "none",
         "reportUnknownCallerType": "none",
         "reportUnnecessaryIsInstance": "none",
+    },
+    "explorer.fileNesting.patterns": {
+        "Cargo.toml": "Cargo.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
     },
 }

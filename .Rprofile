@@ -1,7 +1,7 @@
-.clean_up_1024 <- function(folder="~/Downloads/1024") {
+.clean_up_1024 <- function(folder = "~/Downloads/1024") {
   x <- list.files(folder, include.dirs = TRUE, full.names = FALSE)
   x <- x[dir.exists(file.path(folder, x))]
-  file.rename(file.path(folder, x), file.path(folder, paste0('a-', x)))
+  file.rename(file.path(folder, x), file.path(folder, paste0("a-", x)))
   x <- list.files(folder, include.dirs = TRUE, full.names = FALSE)
   x <- x[dir.exists(file.path(folder, x))]
   for (x_ in x) {
@@ -15,7 +15,7 @@
   system(cmd)
 }
 options(vsc.use_httpgd = TRUE)
-options("repos"=c("CRAN"="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"))
+options("repos" = c("CRAN" = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/"))
 options(useFancyQuotes = FALSE)
 options(languageserver.lint_cache = TRUE)
 options(datatable.quiet = TRUE, datatable.print.class = TRUE, datatable.print.keys = TRUE)
@@ -39,3 +39,8 @@ options(error = function() {
 if (interactive() && !nzchar(Sys.getenv("RSTUDIO"))) {
   source(file.path(Sys.getenv(if (.Platform$OS.type == "windows") "USERPROFILE" else "HOME"), ".vscode-R", "init.R"))
 }
+options(languageserver.formatting_style = function(options) {
+  style <- styler::tidyverse_style(indent_by = options$tabSize)
+  style$token$force_assignment_op <- NULL
+  style
+})
