@@ -8,7 +8,6 @@ alias r_doc="Rscript -e 'devtools::document()'"
 alias r="radian"
 alias python="python3"
 # 不能用alias了，这代表定义变量，需要用${path1024}来替换
-path1024="/Users/shrektan/Downloads/movie/1024"
 alias sfolder="python ~/Documents/RWD/py-scripts/simplify_file_tree.py"
 alias rotatevideo="python ~/Documents/RWD/py-scripts/rotate_video.py"
 alias cdpyscript="cd ~/Documents/RWD/py-scripts/"
@@ -44,3 +43,10 @@ function uvrun() {
     # https://github.com/astral-sh/uv/issues/8432
     uv run "$@"
 }
+
+# bun completions
+[ -s "/Users/shrektan/.bun/_bun" ] && source "/Users/shrektan/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
